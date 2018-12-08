@@ -6,7 +6,7 @@ connected and use the right COM port in the code if you do have an Arduino conne
 in Anaconda with Python 2.7 is recommended.
 
 The robotic arm's gripper servo is controlled with inputs from the keyboard. We used a handheld wireless keyboard.
-We have set the inputs as '='(for +, to increase angle, open the claw) and '-'(for -, to decrease angle, close the claw) 
+We have set the inputs as '=' (for +, to increase angle, open the claw) and '-' (for -, to decrease angle, close the claw)
 
 Methodology: -
 We have used the position and size of a Yellow glove in webcam's video feed to control the three servos and inputs from a wireless keyboard to control the fourth servo. (Gripper's servo) Servo angles are sent wirelessly from the laptop to an Arduino using point to point communication using Xbee radio modules.
